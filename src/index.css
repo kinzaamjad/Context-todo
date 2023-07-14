@@ -1,0 +1,44 @@
+.todo-list {
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-text {
+  flex-grow: 1;
+  cursor: pointer;
+  align-items: center;
+}
+
+.completed .todo-text {
+  text-decoration: line-through;
+  align-items: center;
+}
+
+.delete-button {
+  margin-left: 10px;
+  background-color: #00d9ff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  align-items: left;
+}
+body {
+  background-color: burlywood;
+ 
+  border: black;
+
+}
